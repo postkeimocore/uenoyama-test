@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+
+  <title>上の山放牧場｜鳥海山麓の放牧経産牛・黒毛和牛｜秋田県にかほ市</title>
+
+  <meta name="description" content="秋田県にかほ市、鳥海山の麓で、黒毛和牛の繁殖、放牧経産牛の生産・販売、放牧場の体験事業を行う上の山放牧場。牛、人、自然が共に生きる100年先も続く畜産を目指しています。" />
+
+  <!-- Canonical URL (本番ドメイン確定後に有効化) -->
+  <!-- <link rel="canonical" href="https://uenoyama.com/" /> -->
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="ja_JP" />
+  <meta property="og:site_name" content="上の山放牧場" />
+  <meta property="og:title" content="上の山放牧場｜鳥海山麓の放牧経産牛・黒毛和牛｜秋田県にかほ市" />
+  <meta property="og:description" content="秋田県にかほ市、鳥海山の麓で、黒毛和牛の繁殖、放牧経産牛の生産・販売、放牧場の体験事業を行う上の山放牧場。牛、人、自然が共に生きる100年先も続く畜産を目指しています。" />
+  <!-- <meta property="og:url" content="https://uenoyama.com/" /> -->
+  <meta property="og:image" content="./ogp.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="上の山放牧場のロゴ" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="上の山放牧場｜鳥海山麓の放牧経産牛・黒毛和牛｜秋田県にかほ市" />
+  <meta name="twitter:description" content="秋田県にかほ市、鳥海山の麓で、黒毛和牛の繁殖、放牧経産牛の生産・販売、放牧場の体験事業を行う上の山放牧場。牛、人、自然が共に生きる100年先も続く畜産を目指しています。" />
+  <meta name="twitter:image" content="./ogp.jpg" />
+
+  <!-- Favicon (ファイル配置後に動作) -->
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+
+  <meta name="theme-color" content="#2c3a2a" />
+  <!-- テスト公開中はnoindex (本番デプロイ時にindex,followに変更) -->
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="format-detection" content="telephone=no" />
+
+  <!-- Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://unpkg.com" crossorigin />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Noto+Serif+JP:wght@400;500;600&family=Shippori+Mincho:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <style>
+    html, body { margin: 0; padding: 0; }
+    body { font-family: 'Noto Sans JP', sans-serif; background: #F5F0E8; }
+    #root:empty::before {
+      content: "";
+      display: block;
+      position: fixed;
+      inset: 0;
+      background: #F5F0E8;
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+
+  <!-- React UMD -->
+  <script crossorigin src="https://unpkg.com/react@18.3.1/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js"></script>
+
+  <!-- Babel Standalone (ブラウザ内JSXコンパイル) -->
+  <script src="https://unpkg.com/@babel/standalone@7.25.0/babel.min.js"></script>
+
+  <!-- アプリ本体 -->
+  <script type="text/babel" data-presets="react" src="./app.jsx"></script>
+</body>
+</html>
